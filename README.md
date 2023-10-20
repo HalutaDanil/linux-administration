@@ -185,7 +185,9 @@ As a result of the work you should provide a report with completed tasks. Each p
 
 ## Part 7. Installing and using text editors
 
-`-` I think we're ready to move on to one of the scariest parts. You’re pointing toward the Netherlands on the map of the world hanging on the wall.
+`-` I think we're ready to move on to one of the scariest parts. 
+
+You’re pointing toward the Netherlands on the map of the world hanging on the wall.
 
 `-` Here, Bram Moolenaar has unraveled the mysteries of harmony and inner concentration. \
 This is where the first version of VIM was released on 2 November 1991. \
