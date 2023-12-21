@@ -36,7 +36,7 @@ The russian version of the task can be found in the repository.
 >Developer’s note: \
 >For full immersion, you can play your favorite jazz song while reading the assignment.
 
-Planet Earth, USA, California, Compton, Seb's Jazz Club, nowadays.
+Planet Earth, Seb's Jazz Club, nowadays.
 
 `-` Well, Sebastian, you didn't expect me to believe that you called me just to sit and relax, did you? You're not the type to write to an old comrade in the middle of the work week if you have nothing to say.
 
