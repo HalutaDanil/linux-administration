@@ -36,23 +36,23 @@ The russian version of the task can be found in the repository.
 >Developer’s note: \
 >For full immersion, you can play your favorite jazz song while reading the assignment.
 
-Planet Earth, Seb's Jazz Club, nowadays.
+Planet Earth, Seb's Jazz Club, today.
 
-`-` Well, Sebastian, you didn't expect me to believe that you called me just to sit and relax, did you? You're not the type to write to an old comrade in the middle of the work week if you have nothing to say.
+"Well, Sebastian, you didn't expect me to believe that you called me just to sit and relax, did you? You're not the type to write to an old comrade in the middle of the working week when you have nothing to say."
 
-`-` Nothing can ever be hidden from you! I thought I'd get down to business more smoothly, but since you're so perceptive...
+"Nothing can ever be kept from you! I thought I'd get to the point, but since you're so sharp..."
 
-`-` Stop flattering me, I just wonder why we’re here.
+"Stop flattering me, I'm just wondering why we're here."
 
-`-` The thing is, I recently joined a development company that needed an administrator. But there is problem: they use Linux as their operating system.
+"The thing is, I recently joined a development company that needed an administrator. But there is problem: they use Linux as their operating system."
 
-`-` And you, as a confident Windows user, want to understand the basics of Linux and also the administration?
+"And you, as a confident Windows user, want to understand the basics of Linux and also the administration?"
 
-`-` Exactly! As far as I remember, you’re good at both.
+"Exactly! As far as I remember, you're good at both."
 
-`-` Well, then, get your laptop! Of course I haven't done this in a while, but I'll try to help. The main thing is to finish before the club closes, otherwise we'll have to continue tomorrow
+"Well, then, get your laptop! Obviously I haven't done this for a while, but I'll try to help. The main thing is to finish before the club closes, otherwise we'll have to continue tomorrow."
 
-\> *The song ends, the music slowly fades, they bring you the drinks you ordered*
+\> *The song ends, the music slowly fades, they bring you the drinks you ordered.*
 
 \> *While Sebastian takes his laptop out and turns it on, you decide to share a little historical background.*
 
@@ -61,33 +61,33 @@ Planet Earth, Seb's Jazz Club, nowadays.
 
 ### Linux
 
-`-` The history of Linux goes back to 1991 when a Finnish graduate programmer Linus Torvalds began to work on his own operating system kernel.
+"The history of Linux dates back to 1991, when a Finnish graduate programmer named Linus Torvalds began working on his own operating system kernel.
 
-`-` He put his work on a public server and it became a milestone in the history of Linux. First dozens, then hundreds and thousands of developers supported his project, and that’s how a complete operating system was born.
+He put his work on a public server and it became a milestone in the history of Linux. First dozens, then hundreds and thousands of developers supported his project, and that's how a complete operating system was born.
 
-`-` The first official version of Linux 1.0 was released in 1994. From the beginning to the present day, Linux has been distributed as free software under the GPL license. This means that the source code of the operating system can be seen by anyone - and not only seen but also modified. The only condition is that the changed, modified code must also be available to everybody and distributed under the GPL. This is important because it allows developers to use the code and at the same time not be afraid of copyright issues.
+The first official version, Linux 1.0, was released in 1994. From the beginning to the present day, Linux has been distributed as free software under the GPL licence. This means that the source code of the operating system can be viewed by anyone - and not just viewed, but modified. The only condition is that the modified code must also be available to everyone and distributed under the GPL. This is important because it allows developers to use the code without worrying about copyright issues.
 
-`-` Today, Linux is the best known and most used open-source operating system. As an operating system, Linux is a software that is underneath other software on a computer, receiving requests from those programs and passing those requests to the computer's hardware.
+Today, Linux is the most popular and widely used open source operating system. As an operating system, Linux is software that sits below other software on a computer, receiving requests from those programs and passing those requests on to the computer's hardware."
 
-\> *The waitress brings you the drinks you ordered, the musicians start playing again*
+\> *The waitress brings you the drinks you ordered, the musicians start playing again.*
 
 ### Administration
 
-`-` Administration is, without going into too much detail, the support and improvement of all computer and office equipment, peripheral devices, network connectivity, etc. When administering Linux, most of the work is done in the terminal, so it's better to start with basic utilities.
+"Administration, without going into too much detail, is the support and improvement of all computer and office equipment, peripherals, network connectivity, etc. When administering Linux, most of the work is done in the terminal, so it's better to start with the basic utilities."
 
 \> *At this point Sebastian's laptop boots up and you see a horrible picture: it doesn't even have the right operating system...*
 
-\> *In order not to reinstall Sebastian's operating system, you decide to use a virtual machine*
+\> *Instead of reinstalling Sebastian's operating system, you decide to use a virtual machine.*
 
 ### Virtual machines
 
-`-` A virtual machine (VM) is just like a physical computer, it has a CPU, memory, disks for storing files, and can connect to the Internet if necessary. The only difference is that the components of your computer (the hardware) are tangible, while virtual machines exist only as code.
+"A virtual machine (VM) is just like a physical computer, it has a CPU, memory, disks for storing files, and can connect to the Internet if necessary. The only difference is that the components of your computer (the hardware) are tangible, while virtual machines exist only as code.
 
-`-` To put it simply, it's a virtual computer on which you can install an operating system and all the associated software, with no changes to your main operating system.
+To put it simply, it's a virtual computer on which you can install an operating system and all the associated software, with no changes to your main operating system.
 
-`-` Virtualisation is the process of creating a software (virtual) version of a computer with dedicated CPU, memory and storage resources that are "borrowed" from a physical computer. A virtual machine is a computer file (image) that works like a normal computer.
+Virtualisation is the process of creating a software (virtual) version of a computer with dedicated CPU, memory and storage resources that are 'borrowed' from a physical computer. A virtual machine is a computer file (image) that works like a normal computer.
 
-`-` _VirtualBox_ is a virtualisation software product, i.e. a tool for creating virtual machines.
+_VirtualBox_ is a virtualisation software product, i.e. a tool for creating virtual machines."
 
 \> *You wanted to share some more useful information later, so you created a materials folder on Sebastian's laptop with useful information.*
 
@@ -96,17 +96,17 @@ Planet Earth, Seb's Jazz Club, nowadays.
 
 As a result of the work you should provide a report with completed tasks. Each part of the task describe what should be added to the report once it has been completed. This can be screenshots, some data, etc.
 
-- A report with a .md extension must be uploaded to the repository, in the src folder.
-- All parts of the task should be highlighted in the report as level 2 headers.
-- Within one part of the task, everything that is added to the report must be in the form of the list.
-- Each screenshot in the report must be briefly captioned (what’s in the screenshot).
+- A report with a .md extension must be uploaded to the repository, in the src folder;
+- All parts of the task should be highlighted in the report as level 2 headers;
+- Within one part of the task, everything that is added to the report must be in the form of the list;
+- Each screenshot in the report must be briefly captioned (what’s in the screenshot);
 - All screenshots must be cropped so that only the relevant part of the screen is shown.
 
 ## Part 1. Installation of the OS
 
-`-` Well, let's finally get this Linux installed,'' -- Sebastian moves the laptop closer to you.
+"Well, let's finally get this Linux installed, Sebastian moves the laptop closer to you."
 
-`-` Yes, it's about time. I saw a great instruction on *Linuxconfig* to install the version we need.
+"Yes, it's about time. I saw a great instruction on *Linuxconfig* to install the version we need."
 
 **== Task ==**
 
@@ -118,7 +118,7 @@ As a result of the work you should provide a report with completed tasks. Each p
 
 ## Part 2. Creating a user
 
-`-` An installed system is a good thing, but what if someone else uses it? I'll teach you how to create a new user.
+"An installed system is a good thing, but what if someone else uses it? I'll teach you how to create a new user."
 
 **== Task ==**
 
@@ -130,9 +130,9 @@ As a result of the work you should provide a report with completed tasks. Each p
 
 ## Part 3. Setting up the OS network
 
-`-` In our world, you can't go far without the Internet. However, since we want to train you for the role of a system administrator, I'll show you a little more than just setting up a network.
+"In our world, you can't go far without the Internet. However, since we want to train you for the role of a system administrator, I'll show you a little more than just setting up a network."
 
-`-` Before we begin, I suggest reading about network interfaces and DHCP.
+"Before we begin, I suggest reading about network interfaces and DHCP."
 
 **== Task ==**
 
@@ -147,33 +147,33 @@ As a result of the work you should provide a report with completed tasks. Each p
 ##### Set static (manually set, not received from DHCP server) ip, gw, dns settings (use public DNS servers, e.g. 1.1.1.1 or 8.8.8.8).
 
 ##### Reboot the virtual machine. Make sure that the static network settings (ip, gw, dns) correspond to those set in the previous point.
-- Describe in the report what you have done to complete all seven points (you can do it in text or with screenshots).
+- Describe in the report what you have done to complete all seven points (you can do it in text or with screenshots);
 - Successfully ping 1.1.1.1 and ya.ru remote hosts and add a screenshot of the output command to the report. There should be "0% packet loss" phrase in command output.
 
 ## Part 4. OS Update
 
-`-` You're probably wondering, "Is the system ready now?" It's not ready at all! We haven't updated it to the latest version yet.
+"You're probably wondering, 'Is the system ready now?' It's not ready at all! We haven't updated it to the latest version yet."
 
 **== Task ==**
 
 ##### Update the system packages to the latest version
-- After updating the system packages, if you enter the update command again, a message should appear saying there are no updates.
+- After updating the system packages, if you enter the update command again, a message should appear saying there are no updates;
 - Add a screenshot of this message to the report.
 
 ## Part 5. Using the **sudo** command
 
-`-` How often were you told as a child that you forgot to say the "magic" word? One of those "magic" words was "please". Linux has its counterpart – _sudo_. The system won't perform some operations until it hears the "magic" word.
+"How often were you told as a child that you forgot to say the 'magic' word? One of those 'magic' words was 'please'. Linux has its counterpart – _sudo_. The system won't perform some operations until it hears the 'magic' word."
 
 **== Task ==**
 
 ##### Allow user created in [Part 2](#part-2-creating-a-user) to execute sudo command.
-- In the report explain the *true* purpose of sudo command (don’t write about the fact that this word is "magic" one).
-- Change the OS hostname via the user created in [Part 2](#part-2-creating-a-user) (using sudo).
+- In the report explain the *true* purpose of sudo command (don’t write about the fact that this word is "magic" one);
+- Change the OS hostname via the user created in [Part 2](#part-2-creating-a-user) (using sudo);
 - Add screenshot with changed hostname to the report.
 
 ## Part 6. Installing and configuring the time service
 
-`-` Although we have the correct time now, it may not always be that way. To avoid having to set it every time yourself, there are time sync services.
+"Although we have the correct time now, it may not always be that way. To avoid having to set it every time yourself, there are time sync services."
 
 **== Task ==**
 
@@ -185,23 +185,23 @@ As a result of the work you should provide a report with completed tasks. Each p
 
 ## Part 7. Installing and using text editors
 
-`-` I think we're ready to move on to one of the scariest parts. 
+"I think we're ready to move on to one of the scariest parts."
 
 You’re pointing toward the Netherlands on the map of the world hanging on the wall.
 
-`-` Here, Bram Moolenaar has unraveled the mysteries of harmony and inner concentration. \
+"Here, Bram Moolenaar has unraveled the mysteries of harmony and inner concentration. \
 This is where the first version of VIM was released on 2 November 1991. \
-Do you want to learn how to work in VIM?
+Do you want to learn how to work in VIM?"
 
-`-` Yes...
+"Yes..."
 
-`-` Then I am your master.
+"Then I am your master."
 
-`-` Okay...
+"OK..."
 
-`-` Just don't cry.
+"Just don't cry."
 
-`-` I won’t.
+"I won’t..."
 
 **== Task ==**
 
@@ -209,21 +209,21 @@ Do you want to learn how to work in VIM?
 
 ##### Using each of the three selected editors, create a *test_X.txt* file, where X is the name of the editor in which the file is created. Write your nickname in it, close the file and save the changes.
 - Add screenshots to the report:
-    - Of each editor with the contents of the file before closing.
+    - Of each editor with the contents of the file before closing;
 - Write down in the report what you have done to exit with the changes saved.
 
 ##### Using each of the three selected editors, open the file for editing, edit the file by replacing the nickname with the "21 School 21" string, close the file without saving the changes.
 - Add screenshots to the report:
-    - Of each editor with the contents of the file after editing.
+    - Of each editor with the contents of the file after editing;
 - Write down in the report what you have done to exit without saving the changes.
 ##### Using each of the three selected editors, edit the file again (similar to the previous point) and then master the functions of searching through the contents of a file (a word) and replacing a word with any other one.
 - Add screenshots to the report:
-    - Of each editor with word search results.
+    - Of each editor with word search results;
     - Of each editor with commands entered to replace a word with another.
 
 ## Part 8. Installing and basic setup of the **SSHD** service
 
-`-` It's convenient to have access from one computer to another over a network, isn't it? But to make it not only convenient, but also safe, you should use SSH service.
+"It's convenient to have access from one computer to another over a network, isn't it? But to make it not only convenient, but also safe, you should use SSH service."
 
 **== Task ==**
 
@@ -233,16 +233,16 @@ Do you want to learn how to work in VIM?
 ##### Show the presence of the sshd process using the ps command. To do this, you need to match the keys to the command.
 - Explain in the report the meaning of the command and each key in it.
 ##### Reboot the system.
-- Describe in the report what you have done to complete all five points (you can do this in text or with screenshots).
+- Describe in the report what you have done to complete all five points (you can do this in text or with screenshots);
 - The output of the netstat -tan command should contain \
   `tcp 0 0.0.0.0:2022 0.0.0.0:* LISTEN` \
-  (if there is no netstat command, it needs to be installed)
-- Add a screenshot of the command output to the report.
+  (if there is no netstat command, it needs to be installed);
+- Add a screenshot of the command output to the report;
 - Explain the meaning of the -tan keys, the value of each output column, the value 0.0.0.0. in the report.
 
 ## Part 9. Installing and using the **top**, **htop** utilities
 
-`-` If I were asked what useful things **top** and **htop** utilities do, I would answer in one word: everything.
+"If I were asked what useful things **top** and **htop** utilities do, I would answer in one word: everything."
 
 **== Task ==**
 
@@ -264,7 +264,7 @@ Do you want to learn how to work in VIM?
 
 ## Part 10. Using the **fdisk** utility
 
-`-` Now let's figure out how to get information about your hard disk. Especially for you I've put together a couple of examples of how to use the fdisk utility.
+"Now let's figure out how to get information about your hard disk. Especially for you I've put together a couple of examples of how to use the fdisk utility."
 
 **== Task ==**
 
@@ -273,7 +273,7 @@ Do you want to learn how to work in VIM?
 
 ## Part 11. Using the **df** utility
 
-`-` We got the information about the hard disk, but often it is much more interesting to get information about the disk space, which can be obtained with the df utility.
+"We got the information about the hard disk, but often it is much more interesting to get information about the disk space, which can be obtained with the df utility."
 
 **== Task ==**
 
@@ -295,7 +295,7 @@ Do you want to learn how to work in VIM?
 
 ## Part 12. Using the **du** utility
 
-`-` df is not the only way to get information about disk space. I'll tell you about another one.
+"df is not the only way to get information about disk space. I'll tell you about another one."
 
 **== Task ==**
 
@@ -306,19 +306,19 @@ Do you want to learn how to work in VIM?
 
 ## Part 13. Installing and using the **ncdu** utility
 
-`-` You probably didn’t like much the format in which the du command outputs information. I understand you perfectly. So now we'll take a look at its improved version.
+"You probably didn’t like much the format in which the du command outputs information. I understand you perfectly. So now we'll take a look at its improved version."
 
 **== Task ==**
 
 ##### Install the ncdu utility.
 ##### Output the size of the /home, /var, /var/log folders.
-- The size should be approximately the same as in [Part 12](#part-12-using-the-du-utility).
+- The size should be approximately the same as in [Part 12](#part-12-using-the-du-utility);
 
 - Add screenshots of the used commands to the report.
 
 ## Part 14. Working with system logs
 
-`-` A system administrator sometimes needs to review events which happened in a system in the recent past. Linux has system logs for that.
+"A system administrator sometimes needs to review events which happened in a system in the recent past. Linux has system logs for that."
 
 **== Task ==**
 
@@ -326,19 +326,19 @@ Do you want to learn how to work in VIM?
 ##### 1. /var/log/dmesg
 ##### 2. /var/log/syslog
 ##### 3. /var/log/auth.log
-- Write the last successful login time, user name and login method in the report.
-- Restart SSHd service.
+- Write the last successful login time, user name and login method in the report;
+- Restart SSHd service;
 - Add a screenshot of the service restart message to the report (search for it in the logs).
 
 ## Part 15. Using the **CRON** job scheduler
 
-`-` Phew, we finally got to the last part of my long narrative. I will now show you the program, which, among other things, noticeably simplifies the periodic invocation of other programs.
+"Phew, we finally got to the last part of my long narrative. I will now show you the program, which, among other things, noticeably simplifies the periodic invocation of other programs."
 
 **== Task ==**
 
 ##### Using the job scheduler, run the uptime command in every 2 minutes.
-- Find lines in the system logs (at least two within a given time range) about the execution.
-- Display a list of current jobs for CRON.
+- Find lines in the system logs (at least two within a given time range) about the execution;
+- Display a list of current jobs for CRON;
 - Add screenshots of the execution lines and the list of current tasks to the report.
 
 ##### Remove all tasks from the job scheduler.
