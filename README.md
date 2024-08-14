@@ -252,7 +252,7 @@ Do you want to learn how to work in VIM?"
 - From the output of the top command determine and write in the report:
     - uptime
     - number of authorised users
-    - total system load
+    - average system load
     - total number of processes
     - cpu load
     - memory load
