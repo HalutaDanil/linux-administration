@@ -1,6 +1,6 @@
 ## Working with system logs
 System logs are files that store all the events and processes that happen to files, devices, etc. \
-There are many system logs and they are all located in the /var/log/ directory. \
+There are many system logs and they are all located in the /var/log/ directory.
 
 There are several Linux command line utilities that are easy to use to see the logs. Here are the commands most commonly used for this purpose:
 - less
