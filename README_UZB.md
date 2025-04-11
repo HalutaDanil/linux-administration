@@ -2,9 +2,12 @@
 
 Linux tizimini o’rnatish va yangilash. Ma’murlash asoslari
 
+---
+💡 Agar bu sizning birinchi loyihangiz bo'lsa, ushbu [shaklni](http://opros.so/kAnXy) to'ldiring.
+
 💡 Ushbu loyiha bo’yicha fikr-mulohazalaringizni biz bilan baham ko'rish uchun [shu yerga bosing](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624). Bu anonim va jamoamizga mashg’ulotlarni yaxshilashga yordam beradi. Loyihani bajarib bo’lgandan so'ng darhol so'rovnomani to'ldirishni tavsiya qilamiz. 
 
-**CONTENTS** 
+## Contents 
 
 - [UNIX/Linux operatsion tizimlar (asosiy)](#unixlinux-operatsion-tizimlar-asosiy)
   - [Contens](#contens)
