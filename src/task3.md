@@ -14,7 +14,7 @@
 
 ## Используя консольную команду, получи ip адрес устройства, на котором ты работаешь, от DHCP-сервера.
 
-![Использование команды `dhclient` для ручного получения ответа от DHCP и команды `ip a` для вывода всех сетевых интерфейсов и ip-адресов](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/ipa.png?ref_type=heads)
+![Использование команды `dhclient` для ручного получения ответа от DHCP и команды `ip a` для вывода всех сетевых интерфейсов и ip-адресов](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/ipa_and_dhclient.png?ref_type=heads)
 
 - DHCP - Dynamic Host Configuration Protocol.
 
