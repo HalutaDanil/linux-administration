@@ -1,6 +1,6 @@
 ## Задай название машины вида user-1.
 
-![Использование команды `hostnamectl set-hostname` для смены названия машины](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/-/blob/develop/src/image_for_md/hostnamectl.png)
+![Использование команды `hostnamectl set-hostname` для смены названия машины](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/blob/develop/src/image_for_md/hostnamectl.png)
 
 ## Установи временную зону, соответствующую твоему текущему местоположению.
 
