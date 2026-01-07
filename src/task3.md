@@ -32,10 +32,13 @@
 - Открыл файл с расширением .yaml по пути /etc/netplan/, который содержит конфиг сетевых настроек.
 - Заменил некоторые строчки и добавил свои настройки.
 - Прописал команду `sudo netplan apply`, чтобы утилита netplan приняла изменения.
-- Перезагрузил ВМ командой `reboot`.
 
 ![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/netplan.png?ref_type=heads)
 - Вид сетевого конфигурационного файла
+
+## Перезагрузи виртуальную машину. Убедись, что статичные сетевые настройки (ip, gw, dns) соответствуют заданным в предыдущем пункте.
+
+- Перезагрузил ВМ командой `reboot`.
 
 ![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/result_network_setting.png?ref_type=heads)
 - Результат настройки сети
