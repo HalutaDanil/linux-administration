@@ -162,4 +162,33 @@
 ![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/nano_replace_4.png?ref_type=heads)
 - Результирующее скрин замены слова в редакторе NANO, где произошла замена.
 
+# Task 8
+
+## Установи службу SSHd.
+
+- Ввел команду `sudo apt install openssh-server`.
+
+## Добавь автостарт службы при загрузке системы.
+
+- Проверил состояние служб `ssh.service` и `sshd.service` с помощью команд `sudo systemctl status ssh.service` и `sudo systemctl status sshd.service`. Обе службы находились в состоянии `inactive (dead)`.
+- Запустил службу `OpenSSH` командой `sudo systemctl start ssh.service`.
+- Включил автозапуск службы при загрузке системы командой `sudo systemctl enable ssh.service`.
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/check_status_ssh.service.png?ref_type=heads)
+- Проверка статуса `ssh.service`
+
+## Перенастрой службу SSHd на порт 2022.
+
+- Открыл файл `/etc/ssh/sshd_config` с правами суперпользователя и раскомментировал строчку `Port 22` и изменил значение `22` на `2022`.
+- После, рестартнул службу `OpenSSH` командой `sudo systemctl restart sshd`
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/check_port.png?ref_type=heads)
+- Проверка изменения порта через `sudo systemctl status sshd`
+
+## Используя команду ps, покажи наличие процесса sshd. Для этого к команде нужно подобрать ключи.
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/ps.png?ref_type=heads)
+- Вывод команды `ps -C sshd -f`
+
+- Команда `ps` предназначена для просмотра запущенных процессов, она демонстрирует идентификационные номер процесса `PID` и многое другое. Ключ `-C` используется для поиска процесса по имени исполняемого файла, в нашем случае - это `sshd`. Ключ `-f` добавляет полный формат данных, связанных с процессом.
 
