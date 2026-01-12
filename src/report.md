@@ -217,6 +217,46 @@
 
 - `0.0.0.0` - принимать соединение на любом адресе, назначенном системой.
 
+# Task 9
+
+## Установи и запусти утилиты top и htop.
+
+- Изначально были установлены, потому просто запустил командами `top` и `htop`
+
+## По выводу команды `top` определено: 
+
+- `uptime` - 2:19
+- `количество авторизованных пользователей` - 1
+- `среднюю загрузку системы` - 0.02, 0.01, 0.00
+- `общее количество процессов` - 92
+- `загрузку cpu` - 0.4 us, 0.4 sy, 0.0 ni, 99.1 id, 0.0 wa, 0.0 hi, 0.0 si, 0.0 st
+- `загрузку памяти` - 302.5
+- `pid процесса занимающего больше всего памяти` - 1840
+- `pid процесса, занимающего больше всего процессорного времени` - 1840 
+
+## htop
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/htop_sort_pid.png?ref_type=heads)
+- отсортированный по `PID`
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/htop_sort_percent_cpu.png?ref_type=heads)
+- отсортированный по `PERCENT_CPU`
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/htop_sort_percent_mem.png?ref_type=heads)
+- отсортированный по `PERCENT_MEM`
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/htop_sort_time.png?ref_type=heads)
+- отсортированный по `TIME`
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/htop_filter_sshd.png?ref_type=heads)
+- отфильтрованный для процесса sshd
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/htop_search_syslog.png?ref_type=heads)
+- с процессом syslog, найденным, используя поиск
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/htop_add_hostname_clock_uptime.png?ref_type=heads)
+- с добавленным выводом hostname, clock и uptime
+
 
 
 
