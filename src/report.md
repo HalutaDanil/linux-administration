@@ -349,6 +349,38 @@
 ![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/ncdu-var-log.png?ref_type=heads)
 - вид утилиты `ncdu`, запущенной командой `ncdu /var/log`
 
+# Task 14
+
+## Открой для просмотра:
+
+1. /var/log/dmesg
+2. /var/log/syslog
+3. /var/log/auth.log
+
+- открыл командами `vim /var/log/dmesg`, `vim /var/log/syslog` и `vim /var/log/auth.log`
+
+## Время последней успешной авторизации, имя пользователя и метод входа в систему.
+
+- открыл логи авторизаций командой `vim /var/log/auth.log`
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/authlog.png?ref_type=heads)
+- вид файла `auth.log`
+
+- время последней успешной авторизации: 21:47:44
+- имя пользователя: aemonhul
+- метод входа в систему: локальный вход через виртуальную консоль
+
+## Перезапусти службу SSHd
+
+- использовал команду `sudo systemctl reload ssh.service`
+- открыл файл `/var/log/syslog` командой `vim /var/log/syslog`
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/sshdreload.png?ref_type=heads)
+- логи рестарта службы `sshd`
+
+
+
+
 
 
 
