@@ -257,6 +257,21 @@
 ![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/htop_add_hostname_clock_uptime.png?ref_type=heads)
 - с добавленным выводом hostname, clock и uptime
 
+# Task 10
+
+## Запусти команду fdisk -l.
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/fdisk-l.png?ref_type=heads)
+- вывод команды `fdisk -l`
+
+- название жесткого диска: /dev/sda
+- размер: 25 Gib
+- количество секторов: 52428800
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/free-h.png?ref_type=heads)
+- вывод команды `free -h`
+
+- размер swap: 2 Gi
 
 
 
