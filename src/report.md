@@ -333,7 +333,21 @@
 
 # Task 13
 
+## Установи утилиту ncdu.
 
+- проверил обновления командой `sudo apt update`
+- использовал команду `sudo apt install ncdu`
+
+## Выведи размер папок /home, /var, /var/log.
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/ncdu-home.png?ref_type=heads)
+- вид утилиты `ncdu`, запущенной командой `ncdu /home`
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/ncdu-var.png?ref_type=heads)
+- вид утилиты `ncdu`, запущенной командой `ncdu /var`
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/ncdu-var-log.png?ref_type=heads)
+- вид утилиты `ncdu`, запущенной командой `ncdu /var/log`
 
 
 
