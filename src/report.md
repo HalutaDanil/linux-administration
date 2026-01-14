@@ -275,6 +275,8 @@
 
 # Task 11
 
+## Запусти команду df.
+
 ![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/df.png?ref_type=heads)
 - вывод команды `df`
 
@@ -285,6 +287,8 @@
 
 - единица измерения в выводе: килобайты
 
+## Запусти команду df -Th.
+
 ![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/df-Th.png?ref_type=heads)
 - вывод команды `df -Th`
 
@@ -294,6 +298,31 @@
 - процент использования: 57%
 
 - тип файловой системы для раздела: ext4
+
+# Task 12
+
+## Запусти команду du.
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/du.png?ref_type=heads)
+- вывод команды `du`
+
+## Выведи размер папок /home, /var, /var/log (в байтах, в человекочитаемом виде).
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/du-sbh-home.png?ref_type=heads)
+- вывод команды `sudo du -sbh /home`
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/du-sbh-var.png?ref_type=heads)
+- вывод команды `sudo du -sbh /var`
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/du-sbh-var-log.png?ref_type=heads)
+- вывод команды `sudo du -sbh /var/log/`
+
+## Выведи размер всего содержимого в /var/log (не общее, а каждого вложенного элемента, используя *).
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/du-bh-var-log.png?ref_type=heads)
+- вывод команды `sudo du -bh /var/log/*`
+
+# Task 13
 
 
 
