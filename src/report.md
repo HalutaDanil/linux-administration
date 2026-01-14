@@ -378,7 +378,29 @@
 ![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/sshdreload.png?ref_type=heads)
 - логи рестарта службы `sshd`
 
+# Task 15
 
+## Используя планировщик заданий, запусти команду uptime через каждые 2 минуты.
+
+- открыл файла для записи задач командой `crontab -e`
+- отредактировал файл, добавив в конце `*/2 * * * * uptime`
+- выполнил команду `crontab -l`, чтобы вывести список всех задач
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/crontabl.png?ref_type=heads)
+- вывод команды `crontab -l`
+
+- открыл логи командой `vim /var/log/syslog`
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/syslogcron.png?ref_type=heads)
+- запись в логах о выполнении задач планировщиком `cron` 
+
+## Удали все задания из планировщика заданий.
+
+- выполнил удаление всех задач командой `crontab -r`
+- посмотрел список задач командой `crontab -l`
+
+![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/crontabrl.png?ref_type=heads)
+- список задач после удаления
 
 
 
