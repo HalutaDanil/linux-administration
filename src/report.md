@@ -78,6 +78,8 @@
 
 ## Разреши пользователю, созданному в Part 2,выполнять команду sudo.
 
+- использовал команду `sudo usermod -aG sudo newuser`
+
 ![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/task5.png?ref_type=heads)
 - Изменение `hostname`, созданным пользователей
 
@@ -87,6 +89,8 @@
 
 ## Настрой службу автоматической синхронизации времени.
 
+- использовал команду `sudo timedatectl set-ntp true`
+
 ![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/task6.png?ref_type=heads)
 - Использование команды `timedatectl` и команды `date`
 
@@ -94,7 +98,7 @@
 
 ## Установи текстовые редакторы VIM (+ любые два по желанию NANO, MCEDIT, JOE и т. д.)
 
-- Установил редакторы VIM, NANO, MCEDIT.
+- Редакторы VIM, NANO уже были установлены, а вот MCEDIT пришлось установить, проверив обновления `sudo apt update`, командой `sudo apt install mcedit`.
 
 ## Используя каждый из трех выбранных редакторов, создай файл test_X.txt, где X — название редактора, в котором создан файл. Напиши в нём свой никнейм, закрой файл с сохранением изменений.
 
@@ -169,6 +173,7 @@
 
 ## Установи службу SSHd.
 
+- проверил обновления перед установкой командой `sudo apt update`
 - Ввел команду `sudo apt install openssh-server`.
 
 ## Добавь автостарт службы при загрузке системы.
