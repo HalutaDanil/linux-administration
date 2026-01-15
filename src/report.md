@@ -3,14 +3,17 @@
 ## Установи Ubuntu 20.04 Server LTS без графического интерфейса. (Используем программу для виртуализации — VirtualBox)
 
 ![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/task1.png)
+- вывод команды `cat /etc/issue`
 
 # Task 2
 
 ## Создай пользователя, отличного от созданного при установке. Пользователь должен быть добавлен в группу `adm`.
 
 ![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/task2-createuser-and-appendadm.png)
+- использование команд `sudo adduser newuser` и `sudo usermod -aG adm newuser`
 
 ![](https://git.21-school.ru/students_repo/aemonhul/D01_Linux.ID_356272-1/raw/develop/src/image_for_md/task2-passwd.png)
+- вывод команды `cat /etc/passwd`
 
 # Task 3
 
