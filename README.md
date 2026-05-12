@@ -1,48 +1,57 @@
-# Linux Administration Basics
+<div align="center">
 
-> Фундаментальные навыки работы с Linux-системами
+# Linux Administration
 
-## О проекте
+**[English](#english) | [Русский](#русский)**
 
-Практическое знакомство с базовым администрированием Ubuntu Server. Проект охватывает установку системы, управление пользователями, сетевую конфигурацию и работу с текстовыми редакторами.
-
-## Что освоено
-
-| Тема | Что делалось |
-|------|-------------|
-| **Установка ОС** | Ubuntu 20.04 Server LTS в VirtualBox (без GUI) |
-| **Пользователи** | Создание пользователя, добавление в группы `adm` и `sudo` |
-| **Сеть** | Настройка статического IP, DNS, DHCP через `netplan` |
-| **Время** | Установка часового пояса, синхронизация через NTP |
-| **Пакеты** | Обновление системы через `apt` |
-| **Редакторы** | Работа с VIM, nano, mcedit |
-| **Мониторинг** | `htop`, `df`, `du`, `free`, процессы |
-
-## Ключевые команды
-
-```bash
-# Пользователи
-sudo adduser newuser
-sudo usermod -aG adm,sudo newuser
-
-# Сеть
-sudo netplan apply
-ip link / ip a / ip route
-
-# Диски и память
-df -Th
-du -sh /var/log
-free -h
-
-# Процессы
-ps aux | grep ssh
-top / htop
-```
-
-## Скриншоты
-
-В директории `src/image_for_md/` сохранены скриншоты выполнения каждой задачи.
+</div>
 
 ---
 
-*Проект из портфолио*
+<a name="english"></a>
+## 🇬🇧 English
+
+Fundamental Linux administration skills on Ubuntu Server. Covers installation, user management, network configuration, and working with text editors.
+
+### 🛠️ Tech Stack
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+
+### ✨ Features
+
+| Topic | Skills |\n|-------|--------|\n| Installation | Ubuntu Server LTS without GUI |\n| Users | Creation, groups (adm, sudo) |\n| Network | Static IP, DNS, DHCP via netplan |\n| Time | Timezone, NTP synchronization |\n| Packages | apt update/upgrade |\n| Editors | VIM, nano, mcedit |\n| Monitoring | htop, df, du, free |
+
+### 🚀 Quick Start
+
+```bash\n# Create user and add to sudo group\nsudo adduser newuser\nsudo usermod -aG sudo newuser\n\n# Network configuration\nsudo netplan apply\n\n# Check disk usage\ndf -Th\ndu -sh /var/log\n```
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:58a6ff,50:1f6feb,100:0969da&height=2&section=header&text=&fontSize=1"/>
+</div>
+
+<a name="русский"></a>
+## 🇷🇺 Русский
+
+Фундаментальные навыки администрирования Linux на Ubuntu Server. Установка, управление пользователями, сетевая конфигурация, работа с текстовыми редакторами.
+
+### 🛠️ Стек технологий
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+
+### ✨ Возможности
+
+| Тема | Навыки |\n|------|--------|\n| Установка | Ubuntu Server LTS без GUI |\n| Пользователи | Создание, группы (adm, sudo) |\n| Сеть | Статический IP, DNS, DHCP через netplan |\n| Время | Часовой пояс, синхронизация NTP |\n| Пакеты | apt update/upgrade |\n| Редакторы | VIM, nano, mcedit |\n| Мониторинг | htop, df, du, free |
+
+### 🚀 Быстрый старт
+
+```bash\n# Создание пользователя и добавление в sudo\nsudo adduser newuser\nsudo usermod -aG sudo newuser\n\n# Настройка сети\nsudo netplan apply\n\n# Проверка использования диска\ndf -Th\ndu -sh /var/log\n```
+
+---
+
+<div align="center">
+
+*Project from portfolio | Проект из портфолио*
+
+</div>
