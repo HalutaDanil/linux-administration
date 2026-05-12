@@ -19,11 +19,30 @@ Fundamental Linux administration skills on Ubuntu Server. Covers installation, u
 
 ### ✨ Features
 
-| Topic | Skills |\n|-------|--------|\n| Installation | Ubuntu Server LTS without GUI |\n| Users | Creation, groups (adm, sudo) |\n| Network | Static IP, DNS, DHCP via netplan |\n| Time | Timezone, NTP synchronization |\n| Packages | apt update/upgrade |\n| Editors | VIM, nano, mcedit |\n| Monitoring | htop, df, du, free |
+| Topic | Skills |
+|-------|--------|
+| Installation | Ubuntu Server LTS without GUI |
+| Users | Creation, groups (adm, sudo) |
+| Network | Static IP, DNS, DHCP via netplan |
+| Time | Timezone, NTP synchronization |
+| Packages | apt update/upgrade |
+| Editors | VIM, nano, mcedit |
+| Monitoring | htop, df, du, free |
 
 ### 🚀 Quick Start
 
-```bash\n# Create user and add to sudo group\nsudo adduser newuser\nsudo usermod -aG sudo newuser\n\n# Network configuration\nsudo netplan apply\n\n# Check disk usage\ndf -Th\ndu -sh /var/log\n```
+```bash
+# Create user and add to sudo group
+sudo adduser newuser
+sudo usermod -aG sudo newuser
+
+# Network configuration
+sudo netplan apply
+
+# Check disk usage
+df -Th
+du -sh /var/log
+```
 
 ---
 
@@ -42,11 +61,30 @@ Fundamental Linux administration skills on Ubuntu Server. Covers installation, u
 
 ### ✨ Возможности
 
-| Тема | Навыки |\n|------|--------|\n| Установка | Ubuntu Server LTS без GUI |\n| Пользователи | Создание, группы (adm, sudo) |\n| Сеть | Статический IP, DNS, DHCP через netplan |\n| Время | Часовой пояс, синхронизация NTP |\n| Пакеты | apt update/upgrade |\n| Редакторы | VIM, nano, mcedit |\n| Мониторинг | htop, df, du, free |
+| Тема | Навыки |
+|------|--------|
+| Установка | Ubuntu Server LTS без GUI |
+| Пользователи | Создание, группы (adm, sudo) |
+| Сеть | Статический IP, DNS, DHCP через netplan |
+| Время | Часовой пояс, синхронизация NTP |
+| Пакеты | apt update/upgrade |
+| Редакторы | VIM, nano, mcedit |
+| Мониторинг | htop, df, du, free |
 
 ### 🚀 Быстрый старт
 
-```bash\n# Создание пользователя и добавление в sudo\nsudo adduser newuser\nsudo usermod -aG sudo newuser\n\n# Настройка сети\nsudo netplan apply\n\n# Проверка использования диска\ndf -Th\ndu -sh /var/log\n```
+```bash
+# Создание пользователя и добавление в sudo
+sudo adduser newuser
+sudo usermod -aG sudo newuser
+
+# Настройка сети
+sudo netplan apply
+
+# Проверка использования диска
+df -Th
+du -sh /var/log
+```
 
 ---
 
