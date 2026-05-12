@@ -29,20 +29,6 @@ Fundamental Linux administration skills on Ubuntu Server. Covers installation, u
 | Editors | VIM, nano, mcedit |
 | Monitoring | htop, df, du, free |
 
-### 🚀 Quick Start
-
-```bash
-# Create user and add to sudo group
-sudo adduser newuser
-sudo usermod -aG sudo newuser
-
-# Network configuration
-sudo netplan apply
-
-# Check disk usage
-df -Th
-du -sh /var/log
-```
 
 ---
 
@@ -71,20 +57,6 @@ du -sh /var/log
 | Редакторы | VIM, nano, mcedit |
 | Мониторинг | htop, df, du, free |
 
-### 🚀 Быстрый старт
-
-```bash
-# Создание пользователя и добавление в sudo
-sudo adduser newuser
-sudo usermod -aG sudo newuser
-
-# Настройка сети
-sudo netplan apply
-
-# Проверка использования диска
-df -Th
-du -sh /var/log
-```
 
 ---
 
